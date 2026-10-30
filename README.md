@@ -5,6 +5,13 @@ damage-weighted maintenance priority for each image and each 200 m road segment.
 
 M Menmangai (23BCE1022), Vellore Institute of Technology, Chennai
 
+> **Dataset:** the complete SVRDD dataset is in this repository's
+> [Releases (dataset-v1)](https://github.com/24f1000138/road-damage-detection/releases/tag/dataset-v1), in two parts
+> because GitHub limits a release file to 2 GB:
+> [part00 (1.9 GB)](https://github.com/24f1000138/road-damage-detection/releases/download/dataset-v1/SVRDD_YOLO.zip.part00) and
+> [part01 (0.9 GB)](https://github.com/24f1000138/road-damage-detection/releases/download/dataset-v1/SVRDD_YOLO.zip.part01).
+> Download both and join them into `SVRDD_YOLO.zip` (commands in the [Dataset](#dataset) section).
+
 ## Results (SVRDD test set, 1,000 images, 7 classes)
 
 | Model | Precision | Recall | F1 | mAP@0.5 |
