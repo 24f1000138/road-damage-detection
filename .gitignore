@@ -1,0 +1,10 @@
+# Word lock and temp files
+~$*
+~WRL*.tmp
+
+# Data and model weights are distributed through GitHub Releases, not the repository
+*.zip
+*.zip.part*
+*.pt
+
+__pycache__/
